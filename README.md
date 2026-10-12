@@ -1,9 +1,9 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Ronak, Co-founder of Clairvyn" src="assets/banner-light.svg" width="100%">
+  <img alt="Ronak M Marlecha, Co-founder of Clairvyn" src="assets/banner-light.svg" width="100%">
 </picture>
 
-I co-founded [Clairvyn](https://clairvyn.com). Architects describe a project, through a form or in their own words, and get back a floorplan they can download and keep working on. I build across the whole product, from how plans are generated to the app architects use and the cloud that runs it.
+I'm Ronak M Marlecha, co-founder of [Clairvyn](https://clairvyn.com). Architects describe a project, through a form or in their own words, and get back a floorplan they can download and keep working on. I build across the whole product, from how plans are generated to the app architects use and the cloud that runs it.
 
 ### What I work on
 

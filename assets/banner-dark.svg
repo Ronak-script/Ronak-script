@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Ronak, Co-founder of Clairvyn">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Ronak M Marlecha, Co-founder of Clairvyn">
   <style>
     .bg { fill: #0d1117; }
     .grid { fill: none; stroke: #1b2a3f; stroke-width: 1; }
@@ -8,7 +8,7 @@
     .door { fill: none; stroke: #8b949e; stroke-width: 1.5; animation: fade 1s ease-out 2.4s backwards; }
     .dim { fill: none; stroke: #8b949e; stroke-width: 1; animation: fade 1s ease-out 2.8s backwards; }
     .dimtxt { fill: #8b949e; font: 13px 'Segoe UI', Helvetica, Arial, sans-serif; animation: fade 1s ease-out 2.8s backwards; }
-    .name { fill: #f0f6fc; font: 700 64px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .name { fill: #f0f6fc; font: 700 54px 'Segoe UI', Helvetica, Arial, sans-serif; }
     .role { fill: #58a6ff; font: 600 24px 'Segoe UI', Helvetica, Arial, sans-serif; }
     .tag { fill: #8b949e; font: 20px 'Segoe UI', Helvetica, Arial, sans-serif; }
     @keyframes draw-wall { from { stroke-dashoffset: 2600; } to { stroke-dashoffset: 0; } }
@@ -22,7 +22,7 @@
   <rect width="1200" height="320" class="bg"/>
   <rect width="1200" height="320" fill="url(#G)"/>
 
-  <text x="70" y="140" class="name">Ronak</text>
+  <text x="70" y="140" class="name">Ronak M Marlecha</text>
   <text x="72" y="185" class="role">Co-founder, Clairvyn</text>
   <text x="72" y="222" class="tag">AI floorplans for architects</text>
 
