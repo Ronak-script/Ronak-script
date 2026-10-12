@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Ronak, Co-founder of Clairvyn">
+  <style>
+    .bg { fill: #0d1117; }
+    .grid { fill: none; stroke: #1b2a3f; stroke-width: 1; }
+    .grid-major { fill: none; stroke: #22385a; stroke-width: 1; }
+    .wall { fill: none; stroke: #58a6ff; stroke-width: 5; stroke-dasharray: 2600; animation: draw-wall 3s ease-out backwards; }
+    .part { fill: none; stroke: #58a6ff; stroke-width: 3; stroke-dasharray: 600; animation: draw-part 2.5s ease-out 0.8s backwards; }
+    .door { fill: none; stroke: #8b949e; stroke-width: 1.5; animation: fade 1s ease-out 2.4s backwards; }
+    .dim { fill: none; stroke: #8b949e; stroke-width: 1; animation: fade 1s ease-out 2.8s backwards; }
+    .dimtxt { fill: #8b949e; font: 13px 'Segoe UI', Helvetica, Arial, sans-serif; animation: fade 1s ease-out 2.8s backwards; }
+    .name { fill: #f0f6fc; font: 700 64px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .role { fill: #58a6ff; font: 600 24px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .tag { fill: #8b949e; font: 20px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    @keyframes draw-wall { from { stroke-dashoffset: 2600; } to { stroke-dashoffset: 0; } }
+    @keyframes draw-part { from { stroke-dashoffset: 600; } to { stroke-dashoffset: 0; } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  </style>
+  <defs>
+    <pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" class="grid"/></pattern>
+    <pattern id="G" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#g)"/><path d="M100 0H0V100" class="grid-major"/></pattern>
+  </defs>
+  <rect width="1200" height="320" class="bg"/>
+  <rect width="1200" height="320" fill="url(#G)"/>
+
+  <text x="70" y="140" class="name">Ronak</text>
+  <text x="72" y="185" class="role">Co-founder, Clairvyn</text>
+  <text x="72" y="222" class="tag">AI floorplans for architects</text>
+
+  <g transform="translate(660 20)">
+    <path class="wall" d="M0 90V0H460V240H0V130"/>
+    <path class="part" d="M200 0V150M200 190V240M200 110H330M370 110H460M0 150H120M160 150H200"/>
+    <path class="door" d="M200 150A40 40 0 0 1 240 190M200 190H240M330 110A40 40 0 0 1 370 70M370 110V70M120 150A40 40 0 0 0 160 110M160 150V110M0 90A40 40 0 0 1 40 130M0 130H40"/>
+    <path class="dim" d="M0 262H460M0 255V269M460 255V269"/>
+    <text x="230" y="285" text-anchor="middle" class="dimtxt">14.0 m / 45'-11"</text>
+  </g>
+</svg>
