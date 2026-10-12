@@ -24,3 +24,7 @@ I'm Ronak M Marlecha, co-founder of [Clairvyn](https://clairvyn.com). Architects
 Passed Level I of the CFA Program.
 
 My code is in private Clairvyn repositories, so the graph below shows activity, not public projects.
+
+### Connect
+
+[LinkedIn](https://www.linkedin.com/in/ronak-m-marlecha) · [clairvyn.com](https://clairvyn.com)
